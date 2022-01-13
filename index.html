@@ -13,7 +13,8 @@
       <header>
         <h1> Audio recorder API</h1>
       </header>
-
+   
+  <div class="shadowbox">
       <section class="main-controls">
         <canvas class="visualizer" height="60px"></canvas>
         <div id="buttons">
@@ -26,11 +27,23 @@
 
 
       </section>
+      
+      </div>
 
     </div>
 
    <p>Go to:  <a href="http://43.4.5.178:9032/apps/runxgb.ipynb">detector app</a> </p>
 
+    <style>
+      .shadowbox {
+        /* width: 70em; */
+        border: 1px solid #333;
+        box-shadow: 8px 8px 5px #444;
+        padding: 8px 12px;
+        background-image: rgb(179, 170, 170) 
+        /* linear-gradient(180deg, rgb(179, 170, 170), #ddd 40%, rgb(209, 209, 209)) */
+        ;}
+    </style>
     
     <label for="toggle">❔</label>
     <input type="checkbox" id="toggle">
